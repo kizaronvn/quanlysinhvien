@@ -40,14 +40,6 @@ public class SinhVien {
 	public double getDiemCuoiKi() {
 		return diemCuoiKi;
 	}
-
-	public void setDiemThanhPhan(double diemThanhPhan) {
-		this.diemThanhPhan = diemThanhPhan;
-	}
-
-	public void setDiemCuoiKi(double diemCuoiKi) {
-		this.diemCuoiKi = diemCuoiKi;
-	}
 	
 	public void updateMark(double diemThanhPhan, double diemCuoiKi) {
 		this.diemThanhPhan = diemThanhPhan;
